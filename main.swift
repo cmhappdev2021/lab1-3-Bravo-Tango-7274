@@ -66,8 +66,18 @@ You triple what's left in your piggy bank by washing windows
 You spend 3 dollars at a convenience store
 
 Print the balance of your piggy bank after each step. */
-
-
+var piggyBank = 0
+print(piggyBank)
+piggyBank += 10
+print(piggyBank)
+piggyBank += 20
+print(piggyBank)
+piggyBank /= 2
+print(piggyBank)
+piggyBank *= 3
+print(piggyBank)
+piggyBank -= 3
+print(piggyBank)
 // The most basic feature of your fitness tracking app is counting steps. Create a variable steps and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
 
 
