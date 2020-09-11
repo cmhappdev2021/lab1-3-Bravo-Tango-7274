@@ -121,7 +121,8 @@ print(multipliedAsDoubles)
 // Are the values of multipliedAsIntegers and multipliedAsDoubles different? Print a statement to the console explaining why.
 print("No they are not the same. This is because it rounded 3.2 to 3 so whenever you multiplied by 10 it equalled 30 instead of 32.")
 // If you completed the Fitness Calculations exercise, you calculated the percent of the daily step goal that a user has achieved. However, you did this by having steps be of type Double. But you can't really track a partial step, so steps should probably be of type Int. Go ahead and declare steps as type Int and give it a value between 500 and 6,000. Then declare goal as type Int and set it equal to 10,000.
-
-
-
+let steps2: Int = 4200
+let steps2Goal: Int = 10000
 // Now create a constant percentOfGoal of type Double that equals the percent of the goal that has been reached so far. You'll need to convert your constants of type Int to be of type Double in your calculation.
+let percentOfGoal2: Double = Double(steps2) / Double(steps2Goal) * 100
+print(percentOfGoal2)
